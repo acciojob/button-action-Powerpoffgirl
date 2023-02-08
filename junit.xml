@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="5" failures="3" time="1.439">
+  <testsuite name="Conditional rendering tests" errors="0" failures="3" skipped="0" timestamp="2022-10-11T13:46:40" time="0.913" tests="5">
+    <testcase classname="Conditional rendering tests Check main div is not altered" name="Conditional rendering tests Check main div is not altered" time="0.023">
+    </testcase>
+    <testcase classname="Conditional rendering tests Check for a paragraph" name="Conditional rendering tests Check for a paragraph" time="0.002">
+    </testcase>
+    <testcase classname="Conditional rendering tests Check for a button" name="Conditional rendering tests Check for a button" time="0.004">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: true
+Received: false
+    at Object.&lt;anonymous&gt; (/Users/abhishek_verma/Desktop/accio/junit-github-action/Button-Action-with-Functional-Component-boilerplate-master/src/__tests__/App.test.js:24:38)
+    at Object.asyncJestTest (/Users/abhishek_verma/Desktop/accio/junit-github-action/Button-Action-with-Functional-Component-boilerplate-master/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/Button-Action-with-Functional-Component-boilerplate-master/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/abhishek_verma/Desktop/accio/junit-github-action/Button-Action-with-Functional-Component-boilerplate-master/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/Button-Action-with-Functional-Component-boilerplate-master/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)</failure>
+    </testcase>
+    <testcase classname="Conditional rendering tests Check for a button id" name="Conditional rendering tests Check for a button id" time="0.002">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: true
+Received: false
+    at Object.&lt;anonymous&gt; (/Users/abhishek_verma/Desktop/accio/junit-github-action/Button-Action-with-Functional-Component-boilerplate-master/src/__tests__/App.test.js:29:38)
+    at Object.asyncJestTest (/Users/abhishek_verma/Desktop/accio/junit-github-action/Button-Action-with-Functional-Component-boilerplate-master/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/Button-Action-with-Functional-Component-boilerplate-master/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/abhishek_verma/Desktop/accio/junit-github-action/Button-Action-with-Functional-Component-boilerplate-master/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/Button-Action-with-Functional-Component-boilerplate-master/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)</failure>
+    </testcase>
+    <testcase classname="Conditional rendering tests Check after button click for text render" name="Conditional rendering tests Check after button click for text render" time="0.025">
+      <failure>Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
+    at ReactWrapper.single (/Users/abhishek_verma/Desktop/accio/junit-github-action/Button-Action-with-Functional-Component-boilerplate-master/node_modules/enzyme/src/ReactWrapper.js:1168:13)
+    at ReactWrapper.simulate (/Users/abhishek_verma/Desktop/accio/junit-github-action/Button-Action-with-Functional-Component-boilerplate-master/node_modules/enzyme/src/ReactWrapper.js:665:17)
+    at Object.&lt;anonymous&gt; (/Users/abhishek_verma/Desktop/accio/junit-github-action/Button-Action-with-Functional-Component-boilerplate-master/src/__tests__/App.test.js:34:28)
+    at Object.asyncJestTest (/Users/abhishek_verma/Desktop/accio/junit-github-action/Button-Action-with-Functional-Component-boilerplate-master/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/Button-Action-with-Functional-Component-boilerplate-master/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/abhishek_verma/Desktop/accio/junit-github-action/Button-Action-with-Functional-Component-boilerplate-master/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/Button-Action-with-Functional-Component-boilerplate-master/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
